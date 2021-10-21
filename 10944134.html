@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="zh-en">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    @import url("text.css");
+  </style>
+  <link rel="stylesheet" type="text/css" href="text.css">
+</head>
+
+<body>
+  <form method="POST" action="text@gmail.com" enctype="text/plain">
+    <table border="1">
+      <tr>
+        <th colspan="4">
+          <p>
+            <a>個人資料表</a>
+          </p>
+        </th>
+      </tr>
+      <tr>
+        <td>
+          <b1>姓名</b1>
+        </td>
+        <td><input type="text"></td>
+        <td>
+          <b1>性別</b1>
+        </td>
+        <td><input type="radio" name="男" value="1">
+          <b1>男</b1><input type="radio" name="女" value="0">
+          <b1>女</b1>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b1>生日</b1>
+        </td>
+        <td colspan="3"><input type="date"></td>
+      </tr>
+      <tr>
+        <td>
+          <b1>手機(10碼)</b1>
+        </td>
+        <td><input type="text"></td>
+        <td>
+          <b1>室內電話</b1>
+        </td>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <td>
+          <b1>email</b1>
+        </td>
+        <td colspan="4"><input type="text"></td>
+      </tr>
+      <tr>
+        <td>
+          <b1>地址</b1>
+        </td>
+        <td><select size="1" name="d1">
+            <option>台北市</option>
+            <option>台中市</option>
+            <option>台南市</option>
+          </select></td>
+        <td colspan="4"><input type="text"></td>
+      </tr>
+      <td>
+        <b1>備註</b1>
+      </td>
+      <td colspan="4"><textarea name="note"></textarea></td>
+    </table>
+    <input type="submit" value="送出">
+    <input type="reset" value="重設">
+  </form>
+
+
+</body>
+
+</html>
